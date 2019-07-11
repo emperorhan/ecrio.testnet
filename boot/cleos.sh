@@ -1,4 +1,4 @@
-ECRBINDIR="$( jq -r '.ECRBINDIR' ".conf" )"
+ECRBINDIR="$( jq -r '.ECRBINDIR' "../.conf" )"
 
 WALLETHOST="127.0.0.1"
 NODEHOST="127.0.0.1"
